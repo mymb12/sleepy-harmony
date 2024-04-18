@@ -1,0 +1,403 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5BCB92C92BCD571200300D64 /* Sleepy_HarmonyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BCB92C82BCD571200300D64 /* Sleepy_HarmonyApp.swift */; };
+		5BCB92CB2BCD571200300D64 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BCB92CA2BCD571200300D64 /* ContentView.swift */; };
+		5BCB92CD2BCD571300300D64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BCB92CC2BCD571300300D64 /* Assets.xcassets */; };
+		5BCB92D02BCD571300300D64 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BCB92CF2BCD571300300D64 /* Preview Assets.xcassets */; };
+		5BCB92DF2BCD580600300D64 /* advice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BCB92DE2BCD580600300D64 /* advice.swift */; };
+		5BCB92E12BCD585D00300D64 /* about-us.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BCB92E02BCD585D00300D64 /* about-us.swift */; };
+		5BEAB80E2BD1830A00FBE4A5 /* bio-rythms.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BEAB80D2BD1830A00FBE4A5 /* bio-rythms.swift */; };
+		5BEAB8152BD18C3C00FBE4A5 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BEAB8142BD18C3C00FBE4A5 /* AVFoundation.framework */; };
+		5BEAB81C2BD1904C00FBE4A5 /* sound.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5BEAB81B2BD1904C00FBE4A5 /* sound.wav */; };
+		5BEAB81E2BD1906D00FBE4A5 /* forest.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5BEAB81D2BD1906D00FBE4A5 /* forest.mp3 */; };
+		5BF3B3FC2BCD7FB8002C1874 /* BottomSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF3B3FB2BCD7FB8002C1874 /* BottomSheetView.swift */; };
+		5BF3B4002BCD81B9002C1874 /* RoundedCorner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF3B3FF2BCD81B9002C1874 /* RoundedCorner.swift */; };
+		5BF3B4022BCD9659002C1874 /* Q_and_A.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF3B4012BCD9659002C1874 /* Q_and_A.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5BCB92C52BCD571200300D64 /* Sleepy Harmony.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sleepy Harmony.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BCB92C82BCD571200300D64 /* Sleepy_HarmonyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sleepy_HarmonyApp.swift; sourceTree = "<group>"; };
+		5BCB92CA2BCD571200300D64 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5BCB92CC2BCD571300300D64 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5BCB92CF2BCD571300300D64 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5BCB92DE2BCD580600300D64 /* advice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = advice.swift; sourceTree = "<group>"; };
+		5BCB92E02BCD585D00300D64 /* about-us.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "about-us.swift"; sourceTree = "<group>"; };
+		5BEAB80D2BD1830A00FBE4A5 /* bio-rythms.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "bio-rythms.swift"; sourceTree = "<group>"; };
+		5BEAB8142BD18C3C00FBE4A5 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		5BEAB81B2BD1904C00FBE4A5 /* sound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = sound.wav; path = "Sleepy Harmony/sound.wav"; sourceTree = SOURCE_ROOT; };
+		5BEAB81D2BD1906D00FBE4A5 /* forest.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = forest.mp3; path = "Sleepy Harmony/forest.mp3"; sourceTree = SOURCE_ROOT; };
+		5BF3B3FB2BCD7FB8002C1874 /* BottomSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomSheetView.swift; sourceTree = "<group>"; };
+		5BF3B3FF2BCD81B9002C1874 /* RoundedCorner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedCorner.swift; sourceTree = "<group>"; };
+		5BF3B4012BCD9659002C1874 /* Q_and_A.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q_and_A.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5BCB92C22BCD571200300D64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BEAB8152BD18C3C00FBE4A5 /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5BCB92BC2BCD571200300D64 = {
+			isa = PBXGroup;
+			children = (
+				5BCB92C72BCD571200300D64 /* Sleepy Harmony */,
+				5BCB92C62BCD571200300D64 /* Products */,
+				5BEAB8132BD18C3C00FBE4A5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5BCB92C62BCD571200300D64 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5BCB92C52BCD571200300D64 /* Sleepy Harmony.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5BCB92C72BCD571200300D64 /* Sleepy Harmony */ = {
+			isa = PBXGroup;
+			children = (
+				5BCB92C82BCD571200300D64 /* Sleepy_HarmonyApp.swift */,
+				5BCB92CA2BCD571200300D64 /* ContentView.swift */,
+				5BCB92E02BCD585D00300D64 /* about-us.swift */,
+				5BF3B4012BCD9659002C1874 /* Q_and_A.swift */,
+				5BF3B3FB2BCD7FB8002C1874 /* BottomSheetView.swift */,
+				5BF3B3FF2BCD81B9002C1874 /* RoundedCorner.swift */,
+				5BCB92DE2BCD580600300D64 /* advice.swift */,
+				5BEAB80D2BD1830A00FBE4A5 /* bio-rythms.swift */,
+				5BCB92CC2BCD571300300D64 /* Assets.xcassets */,
+				5BEAB8162BD18CFC00FBE4A5 /* Sounds */,
+				5BCB92CE2BCD571300300D64 /* Preview Content */,
+			);
+			path = "Sleepy Harmony";
+			sourceTree = "<group>";
+		};
+		5BCB92CE2BCD571300300D64 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5BCB92CF2BCD571300300D64 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5BEAB8132BD18C3C00FBE4A5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5BEAB8142BD18C3C00FBE4A5 /* AVFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5BEAB8162BD18CFC00FBE4A5 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				5BEAB81B2BD1904C00FBE4A5 /* sound.wav */,
+				5BEAB81D2BD1906D00FBE4A5 /* forest.mp3 */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5BCB92C42BCD571200300D64 /* Sleepy Harmony */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BCB92D32BCD571300300D64 /* Build configuration list for PBXNativeTarget "Sleepy Harmony" */;
+			buildPhases = (
+				5BCB92C12BCD571200300D64 /* Sources */,
+				5BCB92C22BCD571200300D64 /* Frameworks */,
+				5BCB92C32BCD571200300D64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Sleepy Harmony";
+			productName = "Sleepy Harmony";
+			productReference = 5BCB92C52BCD571200300D64 /* Sleepy Harmony.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5BCB92BD2BCD571200300D64 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					5BCB92C42BCD571200300D64 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = 5BCB92C02BCD571200300D64 /* Build configuration list for PBXProject "Sleepy Harmony" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5BCB92BC2BCD571200300D64;
+			productRefGroup = 5BCB92C62BCD571200300D64 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5BCB92C42BCD571200300D64 /* Sleepy Harmony */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5BCB92C32BCD571200300D64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BCB92D02BCD571300300D64 /* Preview Assets.xcassets in Resources */,
+				5BEAB81C2BD1904C00FBE4A5 /* sound.wav in Resources */,
+				5BCB92CD2BCD571300300D64 /* Assets.xcassets in Resources */,
+				5BEAB81E2BD1906D00FBE4A5 /* forest.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5BCB92C12BCD571200300D64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BF3B4002BCD81B9002C1874 /* RoundedCorner.swift in Sources */,
+				5BEAB80E2BD1830A00FBE4A5 /* bio-rythms.swift in Sources */,
+				5BCB92E12BCD585D00300D64 /* about-us.swift in Sources */,
+				5BCB92CB2BCD571200300D64 /* ContentView.swift in Sources */,
+				5BF3B4022BCD9659002C1874 /* Q_and_A.swift in Sources */,
+				5BCB92C92BCD571200300D64 /* Sleepy_HarmonyApp.swift in Sources */,
+				5BCB92DF2BCD580600300D64 /* advice.swift in Sources */,
+				5BF3B3FC2BCD7FB8002C1874 /* BottomSheetView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		5BCB92D12BCD571300300D64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5BCB92D22BCD571300300D64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5BCB92D42BCD571300300D64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Sleepy Harmony/Preview Content\"";
+				DEVELOPMENT_TEAM = T6A39WDUUX;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dream-crafters.Sleepy-Harmony";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5BCB92D52BCD571300300D64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Sleepy Harmony/Preview Content\"";
+				DEVELOPMENT_TEAM = T6A39WDUUX;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dream-crafters.Sleepy-Harmony";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5BCB92C02BCD571200300D64 /* Build configuration list for PBXProject "Sleepy Harmony" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BCB92D12BCD571300300D64 /* Debug */,
+				5BCB92D22BCD571300300D64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5BCB92D32BCD571300300D64 /* Build configuration list for PBXNativeTarget "Sleepy Harmony" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BCB92D42BCD571300300D64 /* Debug */,
+				5BCB92D52BCD571300300D64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5BCB92BD2BCD571200300D64 /* Project object */;
+}
