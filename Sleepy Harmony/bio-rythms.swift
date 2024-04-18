@@ -27,7 +27,7 @@ class AudioPlayerViewModel: ObservableObject {
   @Published var isPlaying = false
 
   init() {
-    if let sound = Bundle.main.path(forResource: "forest", ofType: "mp3") {
+    if let sound = Bundle.main.path(forResource: "effect", ofType: "mp3") {
       do {
         self.audioPlayer = try AVAudioPlayer(contentsOf: URL(fileURLWithPath: sound))
       } catch {
