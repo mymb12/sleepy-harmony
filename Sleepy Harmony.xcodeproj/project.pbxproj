@@ -15,12 +15,18 @@
 		5B8AC9382BD26DFB005304E3 /* rus_meditation.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5B8AC9372BD26DFB005304E3 /* rus_meditation.mp3 */; };
 		5B8AC9402BD27170005304E3 /* bio-rythms.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B8AC93C2BD27170005304E3 /* bio-rythms.swift */; };
 		5B8AC9412BD27170005304E3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B8AC93D2BD27170005304E3 /* ContentView.swift */; };
-		5B8AC9422BD27170005304E3 /* advice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B8AC93E2BD27170005304E3 /* advice.swift */; };
 		5B8AC9432BD27170005304E3 /* about-us.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B8AC93F2BD27170005304E3 /* about-us.swift */; };
+		5BACBD7B2BDEB87100C47C5C /* icon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5BACBD792BDEB87100C47C5C /* icon.jpg */; };
+		5BACBD7C2BDEB87100C47C5C /* bg_back.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5BACBD7A2BDEB87100C47C5C /* bg_back.jpg */; };
+		5BACBD7E2BDEB93300C47C5C /* eng_meditation.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5BACBD7D2BDEB93300C47C5C /* eng_meditation.jpg */; };
+		5BACBD802BDEB9D600C47C5C /* ChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BACBD7F2BDEB9D600C47C5C /* ChartView.swift */; };
+		5BACBD822BDEBA3B00C47C5C /* InterpolationMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BACBD812BDEBA3B00C47C5C /* InterpolationMethod.swift */; };
+		5BACBD842BDEBA5800C47C5C /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BACBD832BDEBA5800C47C5C /* Data.swift */; };
+		5BACBD862BDEBA8700C47C5C /* ChartType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BACBD852BDEBA8700C47C5C /* ChartType.swift */; };
+		5BACBD892BDEBB0400C47C5C /* AccessibilityHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BACBD882BDEBB0400C47C5C /* AccessibilityHelper.swift */; };
 		5BCB92C92BCD571200300D64 /* Sleepy_HarmonyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BCB92C82BCD571200300D64 /* Sleepy_HarmonyApp.swift */; };
 		5BCB92CD2BCD571300300D64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BCB92CC2BCD571300300D64 /* Assets.xcassets */; };
 		5BCB92D02BCD571300300D64 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BCB92CF2BCD571300300D64 /* Preview Assets.xcassets */; };
-		5BEAB8152BD18C3C00FBE4A5 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BEAB8142BD18C3C00FBE4A5 /* AVFoundation.framework */; };
 		5BEAB8262BD1965100FBE4A5 /* Q_and_A.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BEAB8232BD1965100FBE4A5 /* Q_and_A.swift */; };
 		5BEAB8272BD1965100FBE4A5 /* RoundedCorner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BEAB8242BD1965100FBE4A5 /* RoundedCorner.swift */; };
 		5BEAB8282BD1965100FBE4A5 /* BottomSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BEAB8252BD1965100FBE4A5 /* BottomSheetView.swift */; };
@@ -33,13 +39,23 @@
 		5B0352822BD41140001FAA5A /* AudioModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioModule.swift; sourceTree = "<group>"; };
 		5B0352882BD43692001FAA5A /* music2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = music2.mp3; sourceTree = "<group>"; };
 		5B0352892BD43692001FAA5A /* music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = music.mp3; sourceTree = "<group>"; };
+		5B25DB4A2BD6C4C40013904C /* Sleepy-Harmony-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Sleepy-Harmony-Info.plist"; sourceTree = SOURCE_ROOT; };
 		5B517AA12BD38B1E00AF42FC /* eng_meditation.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = eng_meditation.mp3; sourceTree = "<group>"; };
+		5B79F6A52BD4CD8F003FDE18 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
+		5B79F6AC2BD4D46B003FDE18 /* Sleepy Harmony.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Sleepy Harmony.entitlements"; sourceTree = "<group>"; };
 		5B8AC9352BD26DAB005304E3 /* kz_meditation.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = kz_meditation.mp3; sourceTree = "<group>"; };
 		5B8AC9372BD26DFB005304E3 /* rus_meditation.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = rus_meditation.mp3; sourceTree = "<group>"; };
 		5B8AC93C2BD27170005304E3 /* bio-rythms.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "bio-rythms.swift"; sourceTree = "<group>"; };
 		5B8AC93D2BD27170005304E3 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		5B8AC93E2BD27170005304E3 /* advice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = advice.swift; sourceTree = "<group>"; };
 		5B8AC93F2BD27170005304E3 /* about-us.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "about-us.swift"; sourceTree = "<group>"; };
+		5BACBD792BDEB87100C47C5C /* icon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = icon.jpg; sourceTree = "<group>"; };
+		5BACBD7A2BDEB87100C47C5C /* bg_back.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bg_back.jpg; sourceTree = "<group>"; };
+		5BACBD7D2BDEB93300C47C5C /* eng_meditation.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = eng_meditation.jpg; sourceTree = "<group>"; };
+		5BACBD7F2BDEB9D600C47C5C /* ChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartView.swift; sourceTree = "<group>"; };
+		5BACBD812BDEBA3B00C47C5C /* InterpolationMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterpolationMethod.swift; sourceTree = "<group>"; };
+		5BACBD832BDEBA5800C47C5C /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		5BACBD852BDEBA8700C47C5C /* ChartType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartType.swift; sourceTree = "<group>"; };
+		5BACBD882BDEBB0400C47C5C /* AccessibilityHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessibilityHelper.swift; sourceTree = "<group>"; };
 		5BCB92C52BCD571200300D64 /* Sleepy Harmony.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sleepy Harmony.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BCB92C82BCD571200300D64 /* Sleepy_HarmonyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sleepy_HarmonyApp.swift; sourceTree = "<group>"; };
 		5BCB92CC2BCD571300300D64 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -58,7 +74,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5BEAB8152BD18C3C00FBE4A5 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,11 +84,19 @@
 			isa = PBXGroup;
 			children = (
 				5B8AC93F2BD27170005304E3 /* about-us.swift */,
-				5B8AC93E2BD27170005304E3 /* advice.swift */,
 				5B8AC93C2BD27170005304E3 /* bio-rythms.swift */,
 				5B8AC93D2BD27170005304E3 /* ContentView.swift */,
+				5BACBD7F2BDEB9D600C47C5C /* ChartView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		5BACBD872BDEBAF100C47C5C /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				5BACBD882BDEBB0400C47C5C /* AccessibilityHelper.swift */,
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 		5BCB92BC2BCD571200300D64 = {
@@ -96,7 +119,10 @@
 		5BCB92C72BCD571200300D64 /* Sleepy Harmony */ = {
 			isa = PBXGroup;
 			children = (
+				5B25DB4A2BD6C4C40013904C /* Sleepy-Harmony-Info.plist */,
+				5B79F6AC2BD4D46B003FDE18 /* Sleepy Harmony.entitlements */,
 				5BEAB82B2BD1972F00FBE4A5 /* src */,
+				5BACBD872BDEBAF100C47C5C /* Utilities */,
 				5BEAB82A2BD1966600FBE4A5 /* Modules */,
 				5B8AC93B2BD27152005304E3 /* Views */,
 				5BCB92C82BCD571200300D64 /* Sleepy_HarmonyApp.swift */,
@@ -117,6 +143,7 @@
 		5BEAB8132BD18C3C00FBE4A5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				5B79F6A52BD4CD8F003FDE18 /* HealthKit.framework */,
 				5BEAB8142BD18C3C00FBE4A5 /* AVFoundation.framework */,
 			);
 			name = Frameworks;
@@ -129,6 +156,9 @@
 				5BEAB8242BD1965100FBE4A5 /* RoundedCorner.swift */,
 				5BEAB8252BD1965100FBE4A5 /* BottomSheetView.swift */,
 				5B0352822BD41140001FAA5A /* AudioModule.swift */,
+				5BACBD812BDEBA3B00C47C5C /* InterpolationMethod.swift */,
+				5BACBD832BDEBA5800C47C5C /* Data.swift */,
+				5BACBD852BDEBA8700C47C5C /* ChartType.swift */,
 			);
 			path = Modules;
 			sourceTree = "<group>";
@@ -160,6 +190,9 @@
 				5BEAB8362BD1977600FBE4A5 /* Contact us concept.png */,
 				5BEAB8352BD1977600FBE4A5 /* mm.jpeg */,
 				5BEAB8342BD1977600FBE4A5 /* zz.jpeg */,
+				5BACBD7D2BDEB93300C47C5C /* eng_meditation.jpg */,
+				5BACBD7A2BDEB87100C47C5C /* bg_back.jpg */,
+				5BACBD792BDEB87100C47C5C /* icon.jpg */,
 			);
 			path = Image;
 			sourceTree = "<group>";
@@ -228,8 +261,11 @@
 				5B8AC9382BD26DFB005304E3 /* rus_meditation.mp3 in Resources */,
 				5BEAB8382BD1977600FBE4A5 /* mm.jpeg in Resources */,
 				5BEAB8372BD1977600FBE4A5 /* zz.jpeg in Resources */,
+				5BACBD7B2BDEB87100C47C5C /* icon.jpg in Resources */,
+				5BACBD7C2BDEB87100C47C5C /* bg_back.jpg in Resources */,
 				5BCB92CD2BCD571300300D64 /* Assets.xcassets in Resources */,
 				5B03528A2BD43692001FAA5A /* music2.mp3 in Resources */,
+				5BACBD7E2BDEB93300C47C5C /* eng_meditation.jpg in Resources */,
 				5B8AC9362BD26DAB005304E3 /* kz_meditation.mp3 in Resources */,
 				5B517AA22BD38B1E00AF42FC /* eng_meditation.mp3 in Resources */,
 			);
@@ -243,12 +279,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				5BEAB8282BD1965100FBE4A5 /* BottomSheetView.swift in Sources */,
+				5BACBD822BDEBA3B00C47C5C /* InterpolationMethod.swift in Sources */,
+				5BACBD862BDEBA8700C47C5C /* ChartType.swift in Sources */,
 				5B8AC9402BD27170005304E3 /* bio-rythms.swift in Sources */,
+				5BACBD892BDEBB0400C47C5C /* AccessibilityHelper.swift in Sources */,
 				5B8AC9412BD27170005304E3 /* ContentView.swift in Sources */,
-				5B8AC9422BD27170005304E3 /* advice.swift in Sources */,
 				5BCB92C92BCD571200300D64 /* Sleepy_HarmonyApp.swift in Sources */,
 				5B8AC9432BD27170005304E3 /* about-us.swift in Sources */,
 				5BEAB8262BD1965100FBE4A5 /* Q_and_A.swift in Sources */,
+				5BACBD842BDEBA5800C47C5C /* Data.swift in Sources */,
+				5BACBD802BDEB9D600C47C5C /* ChartView.swift in Sources */,
 				5B0352832BD41140001FAA5A /* AudioModule.swift in Sources */,
 				5BEAB8272BD1965100FBE4A5 /* RoundedCorner.swift in Sources */,
 			);
@@ -381,17 +421,23 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Sleepy Harmony/Sleepy Harmony.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Sleepy Harmony/Preview Content\"";
 				DEVELOPMENT_TEAM = T6A39WDUUX;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Sleepy-Harmony-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Please allow access to enjoy all the features of uor application";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -411,17 +457,23 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Sleepy Harmony/Sleepy Harmony.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Sleepy Harmony/Preview Content\"";
 				DEVELOPMENT_TEAM = T6A39WDUUX;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Sleepy-Harmony-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Please allow access to enjoy all the features of uor application";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

@@ -186,7 +186,7 @@ struct AudioModule: View {
                                         }
                                 }
                             }
-                            .padding(.bottom, 200)
+                            .padding(.bottom, 250)
                         }
                     }
                 }
@@ -226,9 +226,9 @@ struct AudioContentView :View {
     @State private var meditations: [Meditation] = [
         .init(name: "KZ Meditation", img: "mm"),
         .init(name: "RUS Meditation", img: "zz"),
-        .init(name: "ENG Meditation", img: "Contact us img"),
+        .init(name: "ENG Meditation", img: "eng_meditation"),
         .init(name: "Music", img: "nn"),
-        .init(name: "Music 2", img: "")
+        .init(name: "Music 2", img: "bg_back")
     ]
     
     @State private var selectedMeditation = Meditation(name: "music", img: "nn")
@@ -270,12 +270,12 @@ struct AudioContentView :View {
                         
                         case "ENG Meditation":
                             selectedMeditation.name = "eng_meditation"
-                            selectedMeditation.img = "Contact us img"
+                            selectedMeditation.img = "eng_meditation"
                             break
                         
                         case "Music 2":
                             selectedMeditation.name = "bg_music2"
-                            selectedMeditation.img = ""
+                            selectedMeditation.img = "bg_back"
                             break
                             
                         default:
