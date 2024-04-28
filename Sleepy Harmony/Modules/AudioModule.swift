@@ -224,8 +224,8 @@ struct Meditation: Identifiable {
 struct AudioContentView :View {
     
     @State private var meditations: [Meditation] = [
-        .init(name: "KZ Meditation", img: "mm"),
-        .init(name: "RUS Meditation", img: "zz"),
+        .init(name: "KZ Meditation", img: "kz_meditation"),
+        .init(name: "RUS Meditation", img: "icon"),
         .init(name: "ENG Meditation", img: "eng_meditation"),
         .init(name: "Music", img: "nn"),
         .init(name: "Music 2", img: "bg_back")
@@ -260,12 +260,12 @@ struct AudioContentView :View {
                         switch meditation.name{
                         case "KZ Meditation": 
                             selectedMeditation.name = "kz_meditation"
-                            selectedMeditation.img = "mm"
+                            selectedMeditation.img = "kz_meditation"
                             break
                         
                         case "RUS Meditation":
                             selectedMeditation.name = "rus_meditation"
-                            selectedMeditation.img = "zz"
+                            selectedMeditation.img = "icon"
                             break
                         
                         case "ENG Meditation":
